@@ -1,6 +1,6 @@
 ---
 name: test-case-generator
-description: Generate a comprehensive set of enterprise Test Cases (.xlsx) from a Test Plan or PRD file using industry-standard test design techniques.
+description: Generate a comprehensive set of enterprise Test Cases (.xlsx) using the General CRUD template format from a Test Plan or PRD file.
 ---
 
 ## Your role
@@ -19,25 +19,30 @@ If information is insufficient, request clarification from the user.
 
 ## Output
 
-- **Format**: Microsoft Excel workbook (.xlsx)
+- **Format**: Microsoft Excel workbook (.xlsx) matching the "General CRUD" template
 - **Filename**: `testcasesopencode.xlsx`
-- **Style**: Professionally formatted with structured columns, filters, frozen header row, enterprise-ready, review-ready
+- **Sheet**: "General CRUD" structure
+- **Style**: Professional, enterprise-ready, review-ready, matching the reference template
 - **Tone**: Technical, precise, clear, actionable
 
-## Test case table columns
+## Test case table columns (General CRUD template)
 
-| # | Column |
-|---|--------|
-| 1 | Test Case ID |
-| 2 | Test Scenario |
-| 3 | Test Description |
-| 4 | Preconditions |
-| 5 | Test Steps |
-| 6 | Test Data |
-| 7 | Expected Results |
-| 8 | Priority (P1–P4) |
-| 9 | Severity (Critical/Major/Minor/Low) |
-| 10 | Status |
+| # | Column | Notes |
+|---|--------|-------|
+| 1 | Scenario TID | Numeric sequence |
+| 2 | TestCase Description | Clear test scenario description |
+| 3 | PreCondition | Prerequisites |
+| 4 | TestSteps | Numbered step-by-step instructions |
+| 5 | Expected Result | Expected outcome with success criteria |
+| 6 | Actual Result | Leave blank |
+| 7 | Steps to Execute | Leave blank |
+| 8 | Expected Result | Leave blank |
+| 9 | Actual Result | Leave blank |
+| 10 | Status | Leave blank |
+| 11 | Executed QA Name | Leave blank |
+| 12 | Misc (Comments) | Leave blank |
+| 13 | Priority | P1–P4 |
+| 14 | Is Automated | "No" (default) |
 
 ## Coverage requirements (minimum 30 test cases)
 

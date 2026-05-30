@@ -22,22 +22,35 @@ QA Team members of all experience levels
 Automation engineers (for future REST Assured automation)
 
 Output Format
-Generate the final deliverable as a Microsoft Excel workbook (.xlsx).
+Generate the final deliverable as a Microsoft Excel workbook (.xlsx) following the template format from the attached reference file ("Test cases - Ultimate _ TheTestingAcademy.xlsx").
 
 File Name:
 testcasesopencode.xlsx
 
+Target Sheet:
+Use the "General CRUD" sheet format as the template.
+
+Column Structure (match exactly):
+1. Scenario TID - numeric sequence (1, 2, 3...)
+2. TestCase Description - clear description of the test scenario
+3. PreCondition - prerequisites required before execution
+4. TestSteps - numbered step-by-step instructions (include Postman scripting where relevant)
+5. Expected Result - detailed expected outcome with success criteria
+6. Actual Result - leave blank (filled during execution)
+7. Steps to Execute - copy of TestSteps or left blank
+8. Expected Result - copy of Expected Result or left blank
+9. Actual Result - leave blank
+10. Status - leave blank (filled during execution)
+11. Executed QA Name - leave blank
+12. Misc (Comments) - leave blank
+13. Priority - P1, P2, P3, P4
+14. Is Automated - No (default)
+
 The document should be:
-Professionally formatted with a structured test case table
+Professionally formatted matching the reference template
 Enterprise-ready and review-ready
-Well-structured with clear column headers, filters, and frozen header row
 Suitable for both manual execution and future automation
-Each test case in a separate row with all columns populated
-
-Test Case Structure
-Include the following columns in the test case table:
-
-Test Case ID | Test Scenario | Test Description | Preconditions | Test Steps | Test Data | Expected Results | Priority | Severity | Status
+Each test case in a separate row
 
 Generate a minimum of 30 test cases covering:
 Booking Creation (POST) – valid, invalid, missing fields, boundary values
