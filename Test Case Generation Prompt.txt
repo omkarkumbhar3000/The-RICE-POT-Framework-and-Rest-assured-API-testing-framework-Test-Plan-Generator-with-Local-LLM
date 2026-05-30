@@ -22,16 +22,17 @@ QA Team members of all experience levels
 Automation engineers (for future REST Assured automation)
 
 Output Format
-Generate the final deliverable as a Microsoft Word document (.docx).
+Generate the final deliverable as a Microsoft Excel workbook (.xlsx).
 
 File Name:
-testcasesopencode.docx
+testcasesopencode.xlsx
 
 The document should be:
-Professionally formatted with a test case table
+Professionally formatted with a structured test case table
 Enterprise-ready and review-ready
-Well-structured with clear column headers
+Well-structured with clear column headers, filters, and frozen header row
 Suitable for both manual execution and future automation
+Each test case in a separate row with all columns populated
 
 Test Case Structure
 Include the following columns in the test case table:

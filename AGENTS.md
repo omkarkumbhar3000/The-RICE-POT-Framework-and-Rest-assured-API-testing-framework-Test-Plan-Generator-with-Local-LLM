@@ -8,7 +8,7 @@ Three-file repo in the planning/prompt-engineering phase for testing the buggy R
 |---|---|
 | `PRD.txt` | Source-of-truth test plan doc (scope, strategy, environments, defect process, contacts) |
 | `Prompt To Generate TestPlan.txt` | LLM prompt that references `@PRD.txt`. Feed this to a local LLM to produce `testplanopencode.docx` |
-| `Test Case Generation Prompt.txt` | LLM prompt to generate detailed test cases. Feed this to a local LLM to produce `testcasesopencode.docx` |
+| `Test Case Generation Prompt.txt` | LLM prompt to generate detailed test cases. Feed this to a local LLM to produce `testcasesopencode.xlsx` |
 
 ## Workflow
 
@@ -42,7 +42,7 @@ REST Assured automation code does not exist yet. This repo is **prompt-engineeri
 ## Reusable skills
 
 `.opencode/skills/test-plan-generator/SKILL.md` — generates `testplanopencode.docx` from a PRD file.
-`.opencode/skills/test-case-generator/SKILL.md` — generates `testcasesopencode.docx` from a Test Plan or PRD file.
+`.opencode/skills/test-case-generator/SKILL.md` — generates `testcasesopencode.xlsx` from a Test Plan or PRD file.
 
 To use:
 1. Attach a PRD or Test Plan file

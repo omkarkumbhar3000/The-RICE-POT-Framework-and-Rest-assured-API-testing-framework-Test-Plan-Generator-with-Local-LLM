@@ -1,6 +1,6 @@
 ---
 name: test-case-generator
-description: Generate a comprehensive set of enterprise Test Cases (.docx) from a Test Plan or PRD file using industry-standard test design techniques.
+description: Generate a comprehensive set of enterprise Test Cases (.xlsx) from a Test Plan or PRD file using industry-standard test design techniques.
 ---
 
 ## Your role
@@ -19,9 +19,9 @@ If information is insufficient, request clarification from the user.
 
 ## Output
 
-- **Format**: Microsoft Word document (.docx)
-- **Filename**: `testcasesopencode.docx`
-- **Style**: Professionally formatted with a structured test case table, enterprise-ready, review-ready
+- **Format**: Microsoft Excel workbook (.xlsx)
+- **Filename**: `testcasesopencode.xlsx`
+- **Style**: Professionally formatted with structured columns, filters, frozen header row, enterprise-ready, review-ready
 - **Tone**: Technical, precise, clear, actionable
 
 ## Test case table columns
@@ -54,6 +54,6 @@ If information is insufficient, request clarification from the user.
 ## Workflow
 
 1. Read the attached Test Plan or PRD file thoroughly
-2. Generate `testcasesopencode.docx` with a minimum of 30 test cases covering all API operations
+2. Generate `testcasesopencode.xlsx` with a minimum of 30 test cases covering all API operations
 3. Use test design techniques: Equivalence Partitioning, Boundary Value Analysis, Error Guessing
 4. Each test case must be independently executable with clear pass/fail criteria
